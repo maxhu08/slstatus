@@ -19,7 +19,3 @@ slstatus
 ## showcase
 
 ![1](./screenshots/1.png)
-
-with battery percentage:
-
-![2](./screenshots/2.png)
