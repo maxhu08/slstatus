@@ -71,7 +71,9 @@ static const struct arg args[] = {
 	  { cpu_perc,		    " ^c#06b6d4^ %s%%^d^ ",        NULL },
 	  { ram_perc,       "^c#a855f7^󰫗 %s%%^d^ ",		      NULL },
     { keymap,		      "^c#f59e0b^ %s^d^ ",		        NULL },
-    // { battery_perc,   "  %s%% | ",                   "BAT0" },
-    // { battery_state,  "[%s] | ",                      "BAT0" },
+    { battery_perc,   "^c#f43f5e^ %s%%^d^ ",         "BAT0" },
+    { battery_state,  "^c#f43f5e^[%s]^d^ ",           "BAT0" },
+    { battery_perc,   "^c#f43f5e^ %s%%^d^ ",         "BAT1" },
+    { battery_state,  "^c#f43f5e^[%s]^d^ ",           "BAT1" },
     { datetime,       "^c#84cc16^󰸗 %s^d^",            "%I:%M:%S %p" },
 };
